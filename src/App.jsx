@@ -4,14 +4,16 @@ import { useState } from 'react';
 import Hero from "./assets/components/Hero";
 import Services from "./assets/components/Services";
 // import Footer from "./assets/components/Footer";
-// import Wh from "./assets/components/wh";
+import Wh from "./assets/components/Wh";
+import Lgo from "./assets/components/Lgo";
 function App() {
   return (
     <>
       {/* <Navbar/> */}
       <Hero />
       <Services />
-      {/* <Wh/> */}
+       <Wh/> 
+       <Lgo/> 
       {/* <Footer/> */}
     
 

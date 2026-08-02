@@ -1,0 +1,27 @@
+/* src/components/AnimatedTitle.css */
+.animated-title {
+  font-size: 4rem;              /* tamaño grande */
+  font-weight: bold;
+  color: white;                 /* texto blanco */
+  -webkit-text-stroke: 2px black; /* borde negro */
+  text-align: center;
+  margin-top: 50px;
+
+  /* Animación */
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
